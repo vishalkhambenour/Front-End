@@ -1,0 +1,63 @@
+
+
+
+.main{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* border: 2px solid red; */
+    background-color: rgba(139, 105, 233, 0.134);
+    width: 400px;
+    height: 400px;
+    margin:40px auto;
+    box-shadow: 10px 10px 100px 1px rgba(0, 0, 0, 0.558);
+}
+.Form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    width: 80%;
+    height: 200px;
+}
+
+.Form Input
+{
+    width: 300px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(238, 189, 144);
+}
+
+.Form button
+{
+    padding: 4px;
+    border: none;
+    background-color: lightgreen;
+    width: 100px;
+
+}
+
+
+.otp
+{
+    /* text-decoration: none; */
+    /* font-weight: 700; */
+    cursor: pointer;
+}
+.otp h3
+{
+    font-size: 20px;
+    color: blue;
+}
+.otp h3:hover
+{
+    color: skyblue;
+    text-decoration: underline;
+
+}

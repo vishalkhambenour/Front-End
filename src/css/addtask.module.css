@@ -1,0 +1,33 @@
+
+
+.main{
+    /* border: 2px solid red; */
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    gap: 20px;
+    margin: 40px auto;
+
+}
+.Form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    gap: 20px;
+}
+.Form input{
+    padding: 10px;
+    width: 300px;
+}
+.Form button{
+    border: none;
+    background-color: aquamarine;
+    width: 100px;
+    padding: 10px;
+}
